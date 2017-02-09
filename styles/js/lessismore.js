@@ -67,6 +67,14 @@ SimpleJekyllSearch({
     fuzzy: true,
     exclude: ['Welcome']
 });
+//日历
+var year = (new Date()).getFullYear() + 1;
+new calendar('.calendar', {
+    limitRange: [
+        ['today', year + '0101']
+    ],
+    isRange: true
+});
 //canvas 背景
 (function () {
     if( /Android|webOS|iPhone|iPod|iPad|BlackBerry/i.test(navigator.userAgent)){

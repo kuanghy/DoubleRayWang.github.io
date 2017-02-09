@@ -7,39 +7,15 @@ title: Love Light
       <div class="row">
         <div class="col-md-3">
           <div class="sidebar hidden-print" role="complementary">
-            <div id="navigation">
-              <h1>目录</h1>
-              <ul class="nav sidenav">
-                {% for post in site.posts  %}
-                {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
-                {% capture this_month %}{{ post.date | date: "%B" }}{% endcapture %}
-                {% capture next_year %}{{ post.previous.date | date: "%Y" }}{% endcapture %}
-                {% capture next_month %}{{ post.previous.date | date: "%B" }}{% endcapture %}
-                {% if forloop.first %}
-                <li><a href="#year_{{this_year}}">{{this_year}}</a>
-                  <ul class="nav">
-                    <li><a href="#month_{{this_year}}_{{this_month}}">{{this_month}}</a></li>
-                    {% endif %}
-
-                    {% if forloop.last %}
-                  </ul>
-                </li>
-                {% else %}
-                {% if this_year != next_year %}
-              </ul>
-              </li>
-              <li><a href="#year_{{next_year}}">{{next_year}}</a>
-                <ul class="nav">
-                  <li><a href="#month_{{next_year}}_{{next_month}}">{{next_month}}</a></li>
-                  {% else %}
-                  {% if this_month != next_month %}
-                  <li><a href="#month_{{next_year}}_{{next_month}}">{{next_month}}</a></li>
-                  {% endif %}
-                  {% endif %}
-                  {% endif %}
-                  {% endfor %}
-                </ul>
-            </div>
+            <ul class="about-me text-center">
+              <li class="sidebar-title text-left"><span>About Me</span></li>
+              <li class="me-header"><img class="img-circle" src="/styles/images/me/me.png" alt="这就是我"></li>
+              <li><p><a href="https://wangleileiwangleilei.github.io/resume/" target="_blank">DoubleRay.Wang</a></p></li>
+              <li class="we-chat"><a href=""><img src="/styles/images/me/QQ.png" alt="QQ"></a><a href=""><img src="styles/images/me/weibo.png" alt="微博"></a><a href=""><img
+                      src="styles/images/me/chat.png" alt="微信"></a><a href="https://github.com/DoubleRayWang/" target="_blank"><img src="/styles/images/me/github.png" alt="Github"></a></li>
+              <li class="text-primary"><p class="lead">人生最可怕的事情是停止思考！</p></li>
+              <li class="calendar"></li>
+            </ul>
           </div>
         </div>
         <div class="col-md-9" role="main">
@@ -58,7 +34,7 @@ title: Love Light
               <ol class="breadcrumb clearfix">
                 <li><h3 style="margin-top:13px"><a class="color-title" rel="nofollow" href='{{post.url}}' target="_blank">{{ post.title }}</a></h3></li>
                   <div class="excerpt">{{ post.excerpt }}</div>
-                  <p><span class="date-artical fl lh30">{{ post.date | date: "%B %e , %Y" }}<a class="tags-title" href="/tag/#{{ post.tags }}-ref">{{ post.tags }}</a></span><a class="btn btn-primary fr" rel="nofollow" href='{{post.url}}' target="_blank">阅读全文</a></p>
+                  <p><span class="date-artical pull-left lh30">{{ post.date | date: "%B %e , %Y" }}<a class="tags-title" href="/tag/#{{ post.tags }}-ref">{{ post.tags }}</a></span><a class="btn btn-primary pull-right" rel="nofollow" href='{{post.url}}' target="_blank">阅读全文</a></p>
               </ol>
               {% if forloop.last %}
             </ul>
