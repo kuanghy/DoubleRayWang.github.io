@@ -1,0 +1,33 @@
+# Site settings
+name: 王雷雷的博客
+email: doubleray.wang@gmail.com
+author: DoubleRay Wang
+url: http://doubleray.win
+resume_site: https://wangleileiwangleilei.github.io/resume/
+github: https://github.com/DoubleRayWang/
+baseurl: ""
+description: 看护好自己曾经的激情与理想，在这个怀疑的年代，依然需要信仰。
+motto: 思维总是喜欢分类和作比较!
+banner: 学而不思则罔，思而不学则殆。
+#permalink: /:categories/:year/:month/:day/:title/
+permalink: /:year/:month/:day/:title/
+excerpt_separator:  '<!-- more -->'
+paginate: 5
+paginate_path: "page:num"
+gems: [jekyll-paginate]
+exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
+github_username: DoubleRayWang
+highlighter: rouge
+markdown: kramdown
+FB:
+  comments :
+    provider : duoshuo
+    duoshuo:
+        short_name : doibleraywang
+    disqus :
+        short_name : doubleraywang
+    # facebook :
+    #   appid : 123
+    #   num_posts: 5
+    #   width: 580
+    #   colorscheme: light
