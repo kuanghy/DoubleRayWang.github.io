@@ -9,7 +9,6 @@
         });//按钮消失和出现
         btn.click(function(){
             $('body,html').animate({scrollTop:0},1000);
-            return false;
         });
     })($('#gotop'));
   $(function () {
