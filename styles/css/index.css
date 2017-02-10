@@ -15,7 +15,7 @@ audio:not([controls]){display:none;height:0}
 .calendar .widget-disabled span{color:#afafaf;cursor:default}
 .calendar .widget-highlight span{background:#f7b82e;color:#fff;border-radius:25%}
 .calendar .widget-active span{background:#39c;color:#fff;border-radius:25px}
-.we-chat{margin-bottom:20px}
+.we-chat{margin-bottom:30px}
 .we-chat span:hover{opacity:1}
 .we-chat span{padding:0 4px;opacity:.7;cursor:pointer}
 .we-chat img{position:absolute;top:-80px}
