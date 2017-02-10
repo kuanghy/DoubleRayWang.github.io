@@ -55,6 +55,7 @@
       }
     }
   })
+    $('.post-content img').zoomify();
 }(jQuery)
 //搜索
 SimpleJekyllSearch({
@@ -66,14 +67,6 @@ SimpleJekyllSearch({
     limit: 5,
     fuzzy: true,
     exclude: ['Welcome']
-});
-//日历
-var year = (new Date()).getFullYear() + 1;
-new calendar('.calendar', {
-    limitRange: [
-        ['today', year + '0101']
-    ],
-    isRange: true
 });
 //canvas 背景
 (function () {
@@ -384,3 +377,5 @@ new calendar('.calendar', {
         mycanvas.height = h = hig.offsetHeight;
     }, false);
 })()
+//图片弹出
+
