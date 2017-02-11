@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: copy
 title: 赞助方式
 date: 2016-12-01 13:15:15 +0800
 permlink: /method

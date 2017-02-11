@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: copy
 title: 打赏
 header: 打赏
 date: 2016-12-01 13:15:15 +0800
