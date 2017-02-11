@@ -3,7 +3,7 @@ layout: post
 title: "我的博客搭建历程"
 date: 2017-01-08 13:15:15 +0800
 categories: 实践之路
-tag: [Jekyll,git]
+tag: Jekyll
 ---
 
 * content
