@@ -15,9 +15,12 @@
 	<link rel="stylesheet" href="{{ '/styles/css/index.css' | prepend: site.baseurl }}">
 	<link rel="stylesheet" href="{{ '/styles/css/fontawesome/css/font-awesome.min.css' | prepend: site.baseurl }}">
 	<link rel="canonical" href="{{ site.url | replace:'index.html','' | prepend: site.baseurl }}">
-	<!--[if lt IE 9]>
+	<!--[if lte IE 9]>
     	<script src="http://apps.bdimg.com/libs/html5shiv/3.7/html5shiv.min.js"></script>
   	<![endif]-->
+	<!--[if lt IE 9]>
+    	<script>window.location.href='/upgrade-your-browser.html';</script>
+    <![endif]-->
 	<script>
 		var _hmt = _hmt || [];
 		(function() {
