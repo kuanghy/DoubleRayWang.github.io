@@ -34,10 +34,10 @@ header: Posts By Category
           <div class="home">
 			{% for category in site.categories %} 
 			  <h2 class="title-border" id="{{ category[0] }}-ref">{{ category[0] | join: "/" }}</h2><hr>
-			  <ul>
+			  <div>
 			    {% assign pages_list = category[1] %}  
 			    {% include LessOrMore/pages_list %}
-			  </ul><hr>
+			  </div><hr>
 			{% endfor %}
           </div>
         </div>

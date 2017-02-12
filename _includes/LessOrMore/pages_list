@@ -1,8 +1,8 @@
+<div id="posts-list">
 {% for node in pages_list %}
   {% if node.title != null %}
     {% if group == null or group == node.group %}
     	{% if page.url == node.url %}
-    	<div id="posts-list">
     	    <div class="posts-list-item">
                 <div class="posts-content">
                     <span class="posts-list-meta">{{ node.date | date: "%Y-%m-%d" }}</span>
@@ -10,9 +10,7 @@
                      <span class='circle'></span>
                 </div>
             </div>
-    	</div>
     	{% else %}
-    	<div id="posts-list">
     	    <div class="posts-list-item">
                 <div class="posts-content">
                      <span class="posts-list-meta">{{ node.date | date: "%Y-%m-%d" }}</span>
@@ -20,11 +18,11 @@
                      <span class='circle'></span>
                 </div>
             </div>
-    	</div>
     	{% endif %}
     {% endif %}
   {% endif %}
 {% endfor %}
 {% assign pages_list = nil %}
 {% assign group = nil %}
+</div>
 
