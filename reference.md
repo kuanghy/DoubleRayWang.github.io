@@ -73,16 +73,10 @@ permalink: /reference/
 <li><a href="http://www.58pic.com/" target="_blank">List item</a>千图网</li>
 <li><a href="http://www.zcool.com.cn/" target="_blank">站酷</a></li>
 <li><a href="http://www.ui.cn/" target="_blank">UI 中国</a></li>
-<li><a href="" target="_blank"></a></li>
-<li><a href="" target="_blank">List item</a></li>
-<li><a href="" target="_blank">List item</a></li>
-<li><a href="" target="_blank">List item</a></li>
-<li><a href="" target="_blank">List item</a></li>
-<li><a href="" target="_blank">List item</a></li>
-<li><a href="" target="_blank">List item</a></li>
-<li><a href="" target="_blank">List item</a></li>
-<li><a href="" target="_blank">List item</a></li>
-<li><a href="" target="_blank">List item</a></li>
-<li><a href="" target="_blank">List item</a></li>
-<li><a href="" target="_blank">List item</a></li>
+<li><a href="http://www.sccnn.com/" target="_blank"></a>素材中国</li>
+<li><a href="http://www.uisdc.com/" target="_blank">优秀网页设计联盟</a></li>
+<li><a href="http://www.uehtml.com/" target="_blank" title="UE设计平台，网页设计，交流设计">UE设计平台</a></li>
+<li><a href="http://shijue.me/" target="_blank" title="中国最具活力的视觉图片分享社区及创意设计产">视觉中国</a></li>
+<li><a href="http://www.hi-id.com/" target="_blank" title="发现有意味的设计！">ID 公社</a></li>
+<li><a href="http://cargocollective.com/" target="_blank" title="国外优秀创意人的社区、并提供免费个人主页服务">Cargocollective</a></li>
 </ol>
