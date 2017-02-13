@@ -375,6 +375,5 @@ SimpleJekyllSearch({
         mycanvas.width = w = window.innerWidth-20;
         mycanvas.height = h = hig.offsetHeight;
     }, false);
-})()
-//图片弹出
+})();
 

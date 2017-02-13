@@ -5,7 +5,7 @@ date: 2016-12-01 13:15:15 +0800
 permalink: /reference/
 ---
 
-<h4 class="btn btn-primary btn-lg">站点推荐</h4>
+<hr><h4 class="btn btn-primary btn-lg">站点推荐</h4><hr>
 <ol class="rounded-list">
 <li><a href="http://nodejs.club/" target="_blank">Node 地下铁沙龙</a></li>
 <li><a href="http://fex.baidu.com/" target="_blank">百度 FEX</a></li>
@@ -23,7 +23,7 @@ permalink: /reference/
 <li><a href="http://doubleray.win/" target="_blank">Love Light 博客</a></li>
 <li><a href="http://www.ruanyifeng.com/blog/" target="_blank">阮一峰的网络日志</a></li>
 </ol>
-<h4 class="btn btn-info btn-lg">前端学习</h4>
+<hr><h4 class="btn btn-info btn-lg">前端学习</h4><hr>
 <ol class="rectangle-list">
 <li><a href="http://www.daqianduan.com/" target="_blank">大前端</a></li>
 <li><a href="http://www.w3school.com.cn/" target="_blank">w3school 在线教程</a></li>
@@ -43,7 +43,7 @@ permalink: /reference/
 <li><a href="http://bonsaiden.github.io/JavaScript-Garden/zh/" target="_blank">JavaScript 秘密花园</a></li>
 <li><a href="https://github.com/jobbole/awesome-javascript-cn" target="_blank">JavaScript Awesome</a></li>
 </ol>
-<h4 class="btn btn-success btn-lg">前端开发</h4>
+<hr><h4 class="btn btn-success btn-lg">前端开发</h4><hr>
 <ol class="rounded-list">
 <li><a href="http://amazeui.org/" target="_blank">Amaze UI</a></li>
 <li><a href="http://www.swiper.com.cn/" target="_blank">Swiper 中文网</a></li>
@@ -62,7 +62,7 @@ permalink: /reference/
 <li><a href="http://www.iecss.com/" target="_blank">IE 默认 CSS</a></li>
 <li><a href="http://browserhacks.com/" target="_blank">浏览器 Hack 大全</a></li>
 </ol>
-<h4 class="btn btn-info btn-lg">设计灵感</h4>
+<hr><h4 class="btn btn-info btn-lg">设计灵感</h4><hr>
 <ol class="rectangle-list">
 <li><a href="http://www.lanrentuku.com/" target="_blank">懒人图库</a></li>
 <li><a href="http://www.nipic.com/index.html" target="_blank">昵图网</a></li>
@@ -77,7 +77,7 @@ permalink: /reference/
 <li><a href="http://www.hi-id.com/" target="_blank" title="发现有意味的设计！">ID 公社</a></li>
 <li><a href="http://cargocollective.com/" target="_blank" title="国外优秀创意人的社区、并提供免费个人主页服务">Cargocollective</a></li>
 </ol>
-<h4 class="btn btn-success btn-lg">素材综合</h4>
+<hr><h4 class="btn btn-success btn-lg">素材综合</h4><hr>
 <ol class="rounded-list">
     <li><a href="http://cn.365psd.com/" target="_blank" title="每天更新的PSD素材下载！">365PSD</a></li>
         <li><a href="https://www.brusheezy.com/" target="_blank" title="国外大量优质笔刷、背景免费下载">Brusheezy</a></li>
@@ -91,8 +91,10 @@ permalink: /reference/
         <li><a href="http://www.iconsdb.com/" target="_blank" title="免费的图标下载网站，可选择多种尺寸和格式">Icons DB</a></li>
         <li><a href="http://iosicongallery.com/" target="_blank" title="收录了苹果客户端的所有的ios产品的图标">IOSIconGallery</a></li>
         <li><a href="http://www.iconpng.com/" target="_blank" title="IconPng图标搜索引擎">爱看图标</a></li>
-        <li><a href="" target="_blank" title=""></a></li>
         <li><a href="http://www.iconfont.cn/" target="_blank">Iconfont 阿里巴巴矢量图标库</a></li>
         <li><a href="https://icomoon.io/app/#/select" target="_blank">Icomoon 图标字体生成器</a></li>
         <li><a href="http://fontawesome.io/" target="_blank">Font Awesome</a></li>
     </ol>
+  <hr>
+  
+> 大家有好的资源项目可以推荐给我，更方便的为大家分享。
