@@ -2,7 +2,7 @@
 layout: post
 title: "webpack 入门指南"
 date: 2017-02-12 13:15:15 +0800
-categories: 学海无涯
+categories: 前沿技术
 tag: webpack
 ---
 

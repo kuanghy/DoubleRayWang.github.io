@@ -9,8 +9,6 @@ tag: JavaScript
 * content
 {:toc}
 
-<br>
-
 　　```JavaScript``` 里的闭包（Closure），对于跟 ```js``` 接触不够深的前端新手来说基本是闻之变色，那么闭包真的有那么难以理解和使用吗？前辈们有很多有声有色的解释和阐述，比如[阮一峰老师](http://www.ruanyifeng.com/blog/)的 [学习Javascript闭包（Closure）](http://www.ruanyifeng.com/blog/2009/08/learning_javascript_closures.html)、[明城](https://www.gracecode.com/)的 [闭包的秘密](https://www.gracecode.com/posts/2385.html) 、[vuturn的专栏](http://blog.csdn.net/vuturn/) 的 [JavaScript闭包详解](http://blog.csdn.net/vuturn/article/details/44560717) 等等好多，今天正好看到《JavaScript 高级程序设计》里的闭包一块，我就集百家之长再说一说闭包。<!-- more -->
 
 ## 1. 什么是闭包

@@ -2,7 +2,7 @@
 layout: post
 title: "有趣的 fullPage.js"
 date: 2017-02-03 20:57:15 +0800
-categories: 干货分享
+categories: 学习笔记
 tag: JavaScript
 ---
 

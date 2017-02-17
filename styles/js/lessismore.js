@@ -54,6 +54,7 @@
       }
     }
   })
+    //文章内图片点击放大
     $('.post-content img').zoomify();
 }(jQuery)
 //搜索

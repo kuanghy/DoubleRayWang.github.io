@@ -2,7 +2,7 @@
 layout: post
 title: "原生 JavaScript 实现 AJAX、JSONP"
 date: 2017-02-14 13:15:15 +0800
-categories: 学海无涯
+categories: 学习笔记
 tag: Ajax
 ---
 
