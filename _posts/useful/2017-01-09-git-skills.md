@@ -3,7 +3,7 @@ layout: post
 title: "常用 git 命令行总结"
 date: 2017-01-09 13:13:05 +0800
 categories: 干货分享
-tag: git
+tag: Git
 ---
 
 * content
