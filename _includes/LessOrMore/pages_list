@@ -15,7 +15,7 @@
                 <div class="posts-content">
                      <span class="posts-list-meta">{{ node.date | date: "%Y-%m-%d" }}</span>
                      <a class="posts-list-name bubble-float-left" href="{{ node.url | prepend: site.baseurl }}">{{ node.title }}</a>
-                     <span class='circle'></span>
+                     <span class="circle"></span>
                 </div>
             </div>
     	{% endif %}

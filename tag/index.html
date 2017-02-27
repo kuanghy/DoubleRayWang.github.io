@@ -29,11 +29,11 @@ header: Posts By Tag
         <div class="wrapper">
           <div class="home">
           	{% for tag in site.tags %} 
-			  <h2 class="title-border" id="{{ tag[0] }}-ref">{{ tag[0] }}</h2><hr>
+			  <h2 class="title-border" id="{{ tag[0] }}-ref">{{ tag[0] }} <span class="circle circle-t"></span></h2>
 			  <div>
 			    {% assign pages_list = tag[1] %}  
 			    {% include LessOrMore/pages_list %}
-			  </div><hr>
+			  </div>
 			{% endfor %}
           </div>
         </div>
