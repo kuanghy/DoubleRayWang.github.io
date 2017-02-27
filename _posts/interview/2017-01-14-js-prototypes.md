@@ -9,6 +9,7 @@ tag: JavaScript
 * content
 {:toc}
 
+　　之前对 JavaScript 中的原型链和原型对象有所了解，每当别人问我什么是原型链和原型对象时，我总是用很官方（其实自己不懂）的解释去描述。有一句话说的好：如果你不能把一个很复杂的东西用最简单的话语描述出来，那就说明你没有真正的理解。
 
 　　本文转自 [trigkit4专栏—— 原型和原型链详解](https://segmentfault.com/a/1190000000662547#articleHeader4)。<!-- more -->
 

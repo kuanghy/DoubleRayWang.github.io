@@ -9,6 +9,10 @@ tag: JavaScript
 * content
 {:toc}
 
+　　call() 和 apply() 都是为了改变某个函数运行时的 context 即上下文而存在的，换句话说，就是为了改变函数体内部 this 的指向。因为 JavaScript 的函数存在「定义时上下文」和「运行时上下文」以及「上下文是可以改变的」这样的概念。
+
+　　二者的作用完全一样，只是接受参数的方式不太一样!<!-- more -->
+
 ## 1. 定义
 
 apply() : 方法能劫持另外一个对象的方法，继承另外一个对象的属性。
@@ -29,7 +33,7 @@ call() : 和 apply() 的意思一样,只不过是参数列表不一样。
 
 - JS 是面向对象语言；
 
-- JS 的函数本质是对象，有对象就会有方法；<!-- more -->
+- JS 的函数本质是对象，有对象就会有方法；
 
 - call() 和 apply() 方法是JS函数对象的特有的方法，也就是自己调用自己。
 
@@ -39,7 +43,6 @@ call() : 和 apply() 的意思一样,只不过是参数列表不一样。
 function writeZhihu(){
    console.log(this)
 }
-
 writeZhihu(); // [Object global] 在浏览器就是window; 在nodeJS中就是指node;
 ```
 

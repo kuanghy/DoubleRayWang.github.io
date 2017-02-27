@@ -9,10 +9,9 @@ tag: gulp
 * content
 {:toc}
 
+- 一份[gulp](https://github.com/gulpjs/gulp)的资源，插件和使用实例清单， 致力于打造更好的前端工程构建流程。
 
-　　**本文转自 [Pines-Cheng](https://github.com/Pines-Cheng/)  github 的 [awesome-gulp-cn](https://github.com/Pines-Cheng/awesome-gulp-cn) 项目。**
-
-> 一份[gulp](https://github.com/gulpjs/gulp)的资源，插件和使用实例清单， 致力于打造更好的前端工程构建流程。
+**本文转自 [Pines-Cheng](https://github.com/Pines-Cheng/)  github 的 [awesome-gulp-cn](https://github.com/Pines-Cheng/awesome-gulp-cn) 项目。**
 
 被老外的[awesome](https://github.com/sindresorhus/awesome) 清单刺激到，觉得有必要翻译一份，为国产的程序员们做点事情，本清单将保持实时更新同步。<!-- more -->PS:进都进来了，就顺便看看其他的吧:
 
