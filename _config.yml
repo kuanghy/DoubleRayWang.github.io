@@ -7,7 +7,7 @@ resume_site: /resume
 github: https://github.com/DoubleRayWang/
 baseurl: ""
 description: 看护好自己曾经的激情与理想，在这个怀疑的年代，依然需要信仰。
-motto: 思维总是喜欢分类和作比较!
+motto: 不懂的知识就努力去补充，这才是成长之道！
 banner: 学而不思则罔，思而不学则殆。
 #permalink: /:categories/:year/:month/:day/:title/
 permalink: /:year/:month/:day/:title/
@@ -26,8 +26,3 @@ FB:
         short_name : doibleraywang
     disqus :
         short_name : doubleraywang
-    # facebook :
-    #   appid : 123
-    #   num_posts: 5
-    #   width: 580
-    #   colorscheme: light
