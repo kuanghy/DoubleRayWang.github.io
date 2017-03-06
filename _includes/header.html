@@ -13,26 +13,15 @@
     <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
       <ul class="nav navbar-nav">
         <li></li>
-        <li>
-          <a href="{{ '/' | prepend: site.baseurl }}">首页</a>
-        </li>
-        <li>
-          <a href="{{ '/categories/' | prepend: site.baseurl }}">授人以渔</a>
-        </li>
-        <li>
-          <a href="{{ '/tag' | prepend: site.baseurl }}">学无止境</a>
-        </li>
+        <li><a href="{{ '/' | prepend: site.baseurl }}">首页</a></li>
+        <li><a href="{{ '/categories/' | prepend: site.baseurl }}">授人以渔</a></li>
+        <li><a href="{{ '/tag' | prepend: site.baseurl }}">学无止境</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li><a  href="{{ '/reference' | prepend: site.baseurl }}">前端导航</a></li>
         <li><a  href="{{ '/effects' | prepend: site.baseurl }}">效果案例</a></li>
-        <li class="dropdown">
-          <a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown">ABOUT<b class="caret"></b></a>
-          <ul class="dropdown-menu">
-            <li><a rel="nofollow" target="_blank" href="{{site.resume_site}}">关于我</a></li>
-            <li><a href="{{ '/donate/' | prepend: site.baseurl }}">打赏作者</a></li>
-          </ul>
-        </li>
+        <li><a  href="{{ '/about' | prepend: site.baseurl }}">关于我</a></li>
+        <li><a href="{{ '/donate/' | prepend: site.baseurl }}">打赏我</a></li>
       </ul>
     </nav>
   </div>
