@@ -1745,10 +1745,5 @@ to{transform:translateY(0) scale(1);opacity:1}
 #tagscloud{height:200px;position:relative;font-size:12px}
 #tagscloud a{position:absolute;top:0;left:0;color:#fff;background-color:#2a485d;text-decoration:none;margin:0 10px 15px 0;line-height:18px;padding:1px 5px;display:inline-block;border-radius:3px}
 #tagscloud a:hover{color:#fff;background:#09f}
-.mt12{margin-top:12px}
-.title-border{
-    margin: 0 0 0 125px;
-    padding: 18px 0 18px 26px;
-    border-left: 4px solid #666;
-    color:#4183c4;
-}
+.mt12{margin-top:12px}.title-border{margin:0 0 0 125px;padding:18px 0 18px 26px;border-left:4px solid #666;color:#4183c4}
+.effect-box{background-color:#b5c8e6}
