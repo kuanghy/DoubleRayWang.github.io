@@ -1225,8 +1225,7 @@ body{position:relative;padding-top:50px}
 .color-title:hover{color:#999}
 #results-container li:hover{color:#252dff}
 #search-input{display:block;padding:6px 6px 6px 2px;border:none;border-bottom:1px solid #a09090;font-size:12px;outline:0;line-height:1;box-sizing:border-box}
-.searchIcon{display:block;position:absolute;right:4%;top:18%;width:16px;height:16px;border:2px solid #404040;border-radius:50%;-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}
-.searchIcon:before{content:' ';position:absolute;top:12px;left:5px;height:9px;width:2px;background-color:#404040}
+.searchIcon{display:block;position:absolute;right:2%;top:30%}
 @media (min-width:768px){.bs-social{text-align:left}
 .bs-social-buttons li:first-child{padding-left:0}
 }
