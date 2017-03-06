@@ -5,6 +5,7 @@ audio,canvas,video{display:inline-block}
 audio:not([controls]){display:none;height:0}
 [hidden],template{display:none}
 .lh30{line-height:30px}
+.index{overflow-x:hidden}
 .calendar caption{line-height:30px;text-align:center;border-bottom:1px solid #ebebeb;margin:10px 2px 5px 0}
 .calendar caption span{margin:0 5px}
 .calendar caption a{color:#666;margin:0 2px;text-decoration:none}
