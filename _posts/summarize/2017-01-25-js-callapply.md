@@ -130,4 +130,4 @@ writeZhihu.apply(author,args2)
 
 ## 3. 总结
 
-　　这个一定要多敲代码，理解，目前我的理解是aplly,call都是调用别人的方法并且讲方法里面的this改变，两者传参数不同，正因为传参数不同，所以可以用aplly用在一些目标函数只需要接受n个参数列表，而不接受数组的函数里面，文章中部分内容参考自[这里](http://www.cnblogs.com/xiaohongwu/archive/2011/06/15/2081237.html)。
+　　这个一定要多敲代码，理解，目前我的理解是aplly,call都是调用别人的方法并且讲方法里面的this改变，两者传参数不同，正因为传参数不同，所以可以用aplly用在一些目标函数只需要接受n个参数列表，而不接受数组的函数里面，文章中部分内容参考自[这里](http://www.cnblogs.com/xiaohongwu/archive/2011/06/15/2081237.html)、[JS中的call、apply、bind方法](http://ghmagical.com/article/page/id/UPLfoGI9vJ91)。
