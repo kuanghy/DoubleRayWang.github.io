@@ -21,8 +21,6 @@ highlighter: rouge
 markdown: kramdown
 FB:
   comments :
-    provider : duoshuo
-    duoshuo:
-        short_name : doibleraywang
+    provider : disqus
     disqus :
-        short_name : doubleraywang
+        short_name : doubleray
