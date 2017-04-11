@@ -35,6 +35,6 @@ Blog相关
 致谢
 ====================================
 
-+ 感谢[Coding](https://coding.net/)提供的代码维护和发布平台
++ 感谢[Github](https://github.com/)提供的代码维护和发布平台
 + 感谢[Jekyll](https://jekyllrb.com/)团队做出如此优秀的产品
 + 感谢[Solar](https://github.com/mattvh/solar-theme-jekyll)的原作者[Matt Harzewski](http://www.webmaster-source.com/)，我的博客选用了此样式模版
